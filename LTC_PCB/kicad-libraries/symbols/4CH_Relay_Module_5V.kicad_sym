@@ -1,0 +1,294 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "9.0")
+  (symbol "4CH_Relay_Module_5V"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "MOD"
+      (at 0 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4CH_Relay_Module_5V"
+      (at 0 -29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" ""
+      (at 0 -31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" ""
+      (at 0 -34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "4-Channel 5V Relay Module with optocoupler isolation, SRD-05VDC-SL-C relays, 10A switching"
+      (at 0 -36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" ""
+      (at 0 -39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "SRD-05VDC-SL-C"
+      (at 0 -41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" ""
+      (at 0 -44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "relay module 4-channel 5V optocoupler"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "4CH_Relay_Module_5V_0_1"
+      (rectangle
+        (start -11.43 27.94)
+        (end 11.43 -27.94)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts (xy -11.43 12.7) (xy 11.43 12.7))
+        (stroke (width 0.127) (type dash))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 0 5.08) (xy 11.43 5.08))
+        (stroke (width 0.127) (type dash_dot))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 0 -2.54) (xy 11.43 -2.54))
+        (stroke (width 0.127) (type dash_dot))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 0 -10.16) (xy 11.43 -10.16))
+        (stroke (width 0.127) (type dash_dot))
+        (fill (type none))
+      )
+      (text "CONTROL"
+        (at 0 26.67 0)
+        (effects (font (size 1.016 1.016) bold))
+      )
+      (text "RELAY OUTPUTS"
+        (at 0 11.43 0)
+        (effects (font (size 1.016 1.016) bold))
+      )
+      (text "K1"
+        (at 1.27 8.89 0)
+        (effects (font (size 0.762 0.762)))
+      )
+      (text "K2"
+        (at 1.27 1.27 0)
+        (effects (font (size 0.762 0.762)))
+      )
+      (text "K3"
+        (at 1.27 -6.35 0)
+        (effects (font (size 0.762 0.762)))
+      )
+      (text "K4"
+        (at 1.27 -13.97 0)
+        (effects (font (size 0.762 0.762)))
+      )
+      (text "Active LOW"
+        (at -5.08 13.97 0)
+        (effects (font (size 0.762 0.762) italic))
+      )
+    )
+    (symbol "4CH_Relay_Module_5V_1_1"
+      (pin power_in line
+        (at -13.97 25.4 0)
+        (length 2.54)
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line
+        (at -13.97 22.86 0)
+        (length 2.54)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line
+        (at -13.97 20.32 0)
+        (length 2.54)
+        (name "JD-VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input inverted
+        (at -13.97 17.78 0)
+        (length 2.54)
+        (name "IN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input inverted
+        (at -13.97 15.24 0)
+        (length 2.54)
+        (name "IN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input inverted
+        (at -13.97 -20.32 0)
+        (length 2.54)
+        (name "IN3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input inverted
+        (at -13.97 -22.86 0)
+        (length 2.54)
+        (name "IN4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 10.16 180)
+        (length 2.54)
+        (name "COM1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 7.62 180)
+        (length 2.54)
+        (name "NO1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 5.08 180)
+        (length 2.54)
+        (name "NC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 2.54 180)
+        (length 2.54)
+        (name "COM2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 0 180)
+        (length 2.54)
+        (name "NO2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 -2.54 180)
+        (length 2.54)
+        (name "NC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 -5.08 180)
+        (length 2.54)
+        (name "COM3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 -7.62 180)
+        (length 2.54)
+        (name "NO3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 -10.16 180)
+        (length 2.54)
+        (name "NC3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 -12.7 180)
+        (length 2.54)
+        (name "COM4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 -15.24 180)
+        (length 2.54)
+        (name "NO4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line
+        (at 13.97 -17.78 180)
+        (length 2.54)
+        (name "NC4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

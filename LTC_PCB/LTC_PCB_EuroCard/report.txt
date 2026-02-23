@@ -1,0 +1,1 @@
+Change symbol U3 from 'Buck16-120V-xxV3A:Buck12V3A' to 'Buck16-120V-xxV3A:Buck12V3A': OK

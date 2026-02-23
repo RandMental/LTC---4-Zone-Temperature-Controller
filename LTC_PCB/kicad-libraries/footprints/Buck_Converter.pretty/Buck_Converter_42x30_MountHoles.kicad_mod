@@ -1,0 +1,185 @@
+(footprint "Buck_Converter_42x30_MountHoles"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Buck converter module, board 42x30mm, 4x mounting holes drill 2.0mm, centers 36.30mm x 29.60mm")
+	(tags "buck converter module mounting holes 42x30")
+	(property "Reference" "REF**"
+		(at 19.1 -28.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d6b453c5-1f1f-455f-a97d-b5c926bbeb71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Buck_Converter_42x30"
+		(at 18.796 -2.032 0)
+		(layer "F.Fab")
+		(uuid "03dd108d-b3e7-4bf3-93db-75a321579101")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 19.1 -12 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f5adb57-3add-4dd7-92ab-7d2693fae63a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 19.1 -12 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf2356a3-8a74-4243-ba4f-00e878ff7e7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2 -27)
+		(end 39 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "52643863-104a-4bd7-b9e6-90d00c9d15c8")
+	)
+	(fp_rect
+		(start -2.5 -27.5)
+		(end 39.5 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1b56e446-0a5c-4064-8ade-10209fa718d0")
+	)
+	(fp_rect
+		(start 0 -25)
+		(end 37 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "058d8cad-7edb-4474-aba6-35a45a6d0e36")
+	)
+	(fp_text user "IN+"
+		(at 3 -24.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "44ca9360-b042-4900-aac8-1c079283c75f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN-"
+		(at 2.5 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "80a18c79-fd37-4728-9205-50c9e8e8980d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 19.1 -12 0)
+		(layer "F.SilkS")
+		(uuid "82d5408f-2512-4078-a409-197f4282ddde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 30.48 0.508 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8a853827-5c37-49d4-8f99-2900dd1dc6b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 30.5 -24.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c39604a9-eb0e-4494-a4bd-d0dee58d603b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 -25)
+		(size 4 4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "153b7b3f-eda2-4520-b900-061dee073843")
+	)
+	(pad "2" thru_hole circle
+		(at 37 -25)
+		(size 4 4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "184d8fef-c5df-4e1b-8d50-efed3edb7b4a")
+	)
+	(pad "3" thru_hole circle
+		(at 37 0)
+		(size 4 4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b0a6fde2-dbd6-4317-91ad-32a5279ec844")
+	)
+	(pad "4" thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "856866c3-2f71-4e65-b3d5-db06b6b52328")
+	)
+	(embedded_fonts no)
+)

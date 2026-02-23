@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Expressif")(type "KiCad")(uri "D:/Projects/LTC/LTC_PCB/kicad-libraries/symbols/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "TFT_ILI9314_3.2")(type "KiCad")(uri "D:/Projects/LTC/LTC_PCB/kicad-libraries/symbols/TFT_32_ILI9341_SPI.kicad_sym")(options "")(descr ""))
+  (lib (name "Relay_Boards")(type "KiCad")(uri "D:/Projects/LTC/LTC_PCB/kicad-libraries/symbols/Relay_Boards.kicad_sym")(options "")(descr ""))
+)
